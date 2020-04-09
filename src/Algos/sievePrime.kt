@@ -1,6 +1,5 @@
 package Algos
-
-fun findSieve(n:Int): Array<Int> {
+private fun findSieve(n:Int): Array<Int> {
     val arr = Array<Int>(n){0}
     println(arr.contentToString()) // fordebugging
     for(i in 3 until n step 2)
